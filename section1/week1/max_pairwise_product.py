@@ -1,4 +1,4 @@
-# Uses python3
+# Uses python2
 n = int(input())
 a = [int(x) for x in input().split()]
 assert(len(a) == n)
@@ -10,4 +10,4 @@ for i in range(0, n):
         if a[i]*a[j] > result:
             result = a[i]*a[j]
 
-print(result)
+print result
